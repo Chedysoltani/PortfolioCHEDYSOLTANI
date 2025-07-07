@@ -51,36 +51,12 @@ export const CertificationLink = (idx) => {
               "https://drive.google.com/file/d/1cRAz17bgOQcpjkzq3pS-IM5E6UbYJktk/view?usp=drive_link",
               "_blank"
           )
-        : idx === 2
-        ? window.open(
-              "https://learn.gomycode.co/credentials/10fe4ced-993a-441a-94ef-526cc4afcc60/GYAOARMHSYYSCALOCEDEEEONI-CN-TC-O/00003779#certificate",
-              "_blank"
-          )
-        : idx === 3
-        ? window.open(
-              "https://diploma.gomycode.app/?id=30965de830ef0c820",
-              "_blank"
-          )
-        : idx === 4
-        ? window.open(
-              "https://drive.google.com/file/d/1Zw3NPg-R4Z07whBp0aeRb12JBkfu_EYr/view?usp=sharing",
-              "_blank"
-          )
-        : idx === 5
-        ? window.open(
-              "https://www.coursera.org/account/accomplishments/professional-cert/APEJH2BTEBW5?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
-              "_blank"
-          )
-        : idx === 6
-        ? window.open(
-              "https://www.coursera.org/account/accomplishments/professional-cert/HSUD8P4WQ2V2?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
-              "_blank"
-          )
-        : idx === 7
-        ? window.open(
-              "https://www.datacamp.com/statement-of-accomplishment/track/13219a3ccbf185f809fe0acb68edbcd08e3d43ec",
-              "_blank"
-          )
+       
+       
+      
+        
+       
+       
         : null;
 };
 
